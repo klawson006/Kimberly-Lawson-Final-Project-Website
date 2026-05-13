@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kimberly's Portfolio</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
+<link href="textgame.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">MEDP285: Web Production I</a></h1>
+				<p> A class portfolio by Kimberly Lawson</p>
+			</div>
+		</div>
+	</div>
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li class="current_page_item"><a href="index.html">Homepage</a></li>
+					<li><a href="personal.html"> Personal Website</a></li>
+				<li><a href="reflection.html"> Reflection</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="banner"></div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2 class="shifted-text">Galactic Baking Adventure</h2>
+			</div>
+			
+			<p class="shifted-text"> If you're a space fan and you like generic alien characters with a wacky plot, you've come to the right place. I originally wanted to showcase my other text game which covered serious topics on parentification, but I lost my files. Thankfully though, I still had this gem that I made back when I was getting used to html. It took extremely long, and while not nearly as polished as my other sites, it's a cheerful and fun little game to go through and see all the different endings. The images may not work, so if you have that error there is a local folder on this computer "kim_textgame" that is already opened. Click index.html in the folder and start your journey!</p>
+			<div class="image image-left-shift decoration">
+			
+				<a href="https://klawson006.github.io/ALIEN-BIRTHDAY-TEXT-GAME/"> 
+					<img src="images/friends.png" alt="arrow sign" />
+				</a>
+			</div>
+
+		</div>
+		<div id="sidebar">
+			<div class="box2">
+				</div>
+		</div>
+	</div>
+</div>
+<div id="portfolio-wrapper">
+	<div id="portfolio" class="container">
+		<div id="column1">
+			<div class="title">
+				<h2>Text game</h2>
+			</div>
+			<a class="image image-full"><img src="images/friends.png" alt="" /></a>
+			<p>Silly alien story. </p>
+			<a href="textgame.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column2">
+			<div class="title">
+				<h2>Readymag site</h2>
+			</div>
+			<a  class="image image-full"><img src="images/readymag.png" alt="" /></a>
+			<p> Fun, mood-boosting site.</p>
+			<a href="readymag.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column3">
+			<div class="title">
+				<h2>Javascript site</h2>
+			</div>
+			<a class="image image-full"><img src="images/java.png" alt="" /></a>
+			<p>Add your own vivacity to a blank slate. </p>
+			<a href="javasite.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column4">
+			<div class="title">
+				<h2>New project: A-frame experience </h2>
+			</div>
+			<a  class="image image-full"><img src="images/aframe.png" alt="" /></a>
+			<p>Interpretive vr experience about childhood.</p>
+			<a href="aframe.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+
+		<div id="copyright" class="container">
+	<p>&copy; Kimberly's Class Portfolio. All rights reserved.| Original template by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+       
+        const mainTitle = document.querySelector('.title h2');
+        if (mainTitle) {
+            mainTitle.classList.add('floating-animation');
+        }
+
+      
+        const columns = [
+            document.getElementById('column1'),
+            document.getElementById('column2'),
+            document.getElementById('column3'),
+            document.getElementById('column4')
+        ];
+
+        columns.forEach(col => {
+            if (col) {
+                col.classList.add('floating-animation');
+            }
+        });
+    });
+</script>
+</body>
+</html>
