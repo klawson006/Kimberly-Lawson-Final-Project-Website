@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kimberly's Portfolio</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
+<link href="readymag.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">MEDP285: Web Production I</a></h1>
+				<p> A class portfolio by Kimberly Lawson</p>
+			</div>
+		</div>
+	</div>
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li class="current_page_item"><a href="index.html">Homepage</a></li>
+					<li><a href="personal.html"> Personal Website</a></li>
+				<li><a href="reflection.html"> Reflection</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="banner"></div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2 class="shifted-text">Unique Flora</h2>
+			</div>
+			
+			<p class="shifted-text">  Around the time that I created this website, spring time had newly arrived. It  may have played a factor in the flora theme of this project, aside from learning about unique flowers whilst scrolling Pinterest one day. I decided to combine early 2000s quirky webpages with a modern and sleek design to make something that had the best of both worlds. Admitedly, sometimes I'm lazy and only want to make pretty visuals instead of coding, so I enjoyed the fact that Readymag does most of the heavy lifting of code while a user can just decorate to their heart's content. The world has not been the greatest in this day and age, so I thought that making a nice website that shows pictures and facts about beautiful plants and trees on our Earth would be a great mood booster. I enjoyed researching what I was interested in and then showing it to the world on this unique site (pun intended).
+			<div class="image image-left-shift decoration">
+				<a href="https://readymag.website/6273641"> 
+					<img src="images/readymag.png" alt="arrow sign" />
+				</a>
+			</div>
+
+		</div>
+		<div id="sidebar">
+			<div class="box2">
+				</div>
+		</div>
+	</div>
+</div>
+<div id="portfolio-wrapper">
+	<div id="portfolio" class="container">
+		<div id="column1">
+			<div class="title">
+				<h2>Text game</h2>
+			</div>
+			<a class="image image-full"><img src="images/friends.png" alt="" /></a>
+			<p>Silly alien story. </p>
+			<a href="textgame.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column2">
+			<div class="title">
+				<h2>Readymag site</h2>
+			</div>
+			<a  class="image image-full"><img src="images/readymag.png" alt="" /></a>
+			<p> Fun, mood-boosting site.</p>
+			<a href="readymag.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column3">
+			<div class="title">
+				<h2>Javascript site</h2>
+			</div>
+			<a class="image image-full"><img src="images/java.png" alt="" /></a>
+			<p>Add your own vivacity to a blank slate. </p>
+			<a href="javasite.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column4">
+			<div class="title">
+				<h2>New project: A-frame experience </h2>
+			</div>
+			<a  class="image image-full"><img src="images/aframe.png" alt="" /></a>
+			<p>Interpretive vr experience about childhood.</p>
+			<a href="aframe.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+
+		<div id="copyright" class="container">
+	<p>&copy; Kimberly's Class Portfolio. All rights reserved.| Original template by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+       
+        const mainTitle = document.querySelector('.title h2');
+        if (mainTitle) {
+            mainTitle.classList.add('floating-animation');
+        }
+
+      
+        const columns = [
+            document.getElementById('column1'),
+            document.getElementById('column2'),
+            document.getElementById('column3'),
+            document.getElementById('column4')
+        ];
+
+        columns.forEach(col => {
+            if (col) {
+                col.classList.add('floating-animation');
+            }
+        });
+    });
+</script>
+</body>
+</html>

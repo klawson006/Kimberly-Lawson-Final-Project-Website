@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Kimberly's Portfolio</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Chivo:400,900" rel="stylesheet" />
+<link href="aframe.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">MEDP285: Web Production I</a></h1>
+				<p> A class portfolio by Kimberly Lawson</p>
+			</div>
+		</div>
+	</div>
+	<div id="menu-wrapper">
+		<div id="menu" class="container">
+			<ul>
+				<li class="current_page_item"><a href="index.html">Homepage</a></li>
+					<li><a href="personal.html"> Personal Website</a></li>
+				<li><a href="reflection.html"> Reflection</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="banner"></div>
+	<div id="page" class="container">
+		<div id="content">
+			<div class="title">
+				<h2 class="shifted-text">"it was so easy once.."</h2>
+			</div>
+			
+			<p class="shifted-text"> I remember when I could barely spell the word "determine" in elementary, and now I'm a college student still trying to navigate life and figure out what works best for me. This VR experience is a loop of fragments of floating shapes and glitching text, made to represent the fragments of childhood memories that one still remembers years later. Some might take it as sad, creepy, or even nothing at all, because this vr experience leaves the user up to their own interpretation. I liked working with VR the least out of all the projects in this semester because I encountered a lot of issues with things not working. I searched why the background did not appear, and apparently it had something to do with my browser, though I have no clue how true that is. Regardless, I wanted to show that I made a big effort and I worked with what I had. And after coming up with an interesting concept, I think this project has started to grow on me. </p>
+		
+			<div class="image image-left-shift decoration">
+				<a href="https://klawson006.github.io/kimbery_aframe_project/"> 
+					<img src="images/aframe.png" alt="arrow sign" />
+				</a>
+			</div>
+
+		</div>
+		<div id="sidebar">
+			<div class="box2">
+				</div>
+		</div>
+	</div>
+</div>
+<div id="portfolio-wrapper">
+	<div id="portfolio" class="container">
+		<div id="column1">
+			<div class="title">
+				<h2>Text game</h2>
+			</div>
+			<a class="image image-full"><img src="images/friends.png" alt="" /></a>
+			<p>Silly alien story. </p>
+			<a href="textgame.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column2">
+			<div class="title">
+				<h2>Readymag site</h2>
+			</div>
+			<a  class="image image-full"><img src="images/readymag.png" alt="" /></a>
+			<p> Fun, mood-boosting site.</p>
+			<a href="readymag.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column3">
+			<div class="title">
+				<h2>Javascript site</h2>
+			</div>
+			<a class="image image-full"><img src="images/java.png" alt="" /></a>
+			<p>Add your own vivacity to a blank slate. </p>
+			<a href="javasite.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+		<div id="column4">
+			<div class="title">
+				<h2>New project: A-frame experience </h2>
+			</div>
+			<a  class="image image-full"><img src="images/aframe.png" alt="" /></a>
+			<p>Interpretive vr experience about childhood.</p>
+			<a href="aframe.html" class="icon icon-arrow-right button">Enter</a> 
+		</div>
+
+		<div id="copyright" class="container">
+	<p>&copy; Kimberly's Class Portfolio. All rights reserved.| Original template by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+       
+        const mainTitle = document.querySelector('.title h2');
+        if (mainTitle) {
+            mainTitle.classList.add('floating-animation');
+        }
+
+      
+        const columns = [
+            document.getElementById('column1'),
+            document.getElementById('column2'),
+            document.getElementById('column3'),
+            document.getElementById('column4')
+        ];
+
+        columns.forEach(col => {
+            if (col) {
+                col.classList.add('floating-animation');
+            }
+        });
+    });
+</script>
+</body>
+</html>
